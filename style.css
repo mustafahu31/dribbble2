@@ -1,0 +1,71 @@
+#gg{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ggg{
+    font-family: 'Dancing Script', cursive;
+}
+#ane{
+    animation-name: color;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    0%{
+        background: greenyellow;
+    }
+    10%{
+        background: seagreen;
+    }
+    20%{
+        background: darkcyan;
+    }
+    30%{
+        background: fuchsia;
+    }
+    40%{
+        background: navajowhite;
+    }
+    50%{
+        background: silver;
+    }
+    60%{
+        background: lawngreen;
+    }
+    70%{
+        background: teal;
+    }
+    80%{
+        background: #62898b;
+    }
+    90%{
+        background: #608009;
+    }
+    100%{
+        background: salmon;
+    }
+}
+#hy{
+    animation-name: col;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+/* img{
+    position: relative;
+} */
+@keyframes col{
+    0%{left: 0;}
+    10%{left: -256px;}
+    20%{left: -512px;}
+    30%{left: -768px;}
+    40%{left: -1024px;}
+    50%{left: -1280px;}
+    60%{left: -1536px;}
+    70%{left: -1792px;}
+    80%{left: -2048px;}
+    90%{left: -2304px;}
+}
